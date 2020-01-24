@@ -15,4 +15,4 @@ RUN mkdir -p /app/data
 
 WORKDIR /app
 
-COPY neuprint.jar .
+COPY executables/*.jar /app/
